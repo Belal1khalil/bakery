@@ -1,0 +1,374 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 2000px;
+    font-family: "Alegreya Sans";
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nav-bar{
+    padding: 20px ;
+}
+
+.header {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    
+} 
+.nav-bar img {
+    width: 200px;
+    float: left;
+}
+.nav-bar ul {
+    float: right;
+}
+.clear-fix {
+    clear: both;
+}
+.nav-bar ul li  {
+    display: inline-block;
+    margin: 0px 15px;
+    color: black;
+    cursor: pointer;
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+.nav-bar ul li a:hover{
+    color: #8E7754;
+}
+
+.head {
+    width: 500px;
+    margin-inline: auto;
+    text-align: center;
+    margin-top: 155px;
+    color: white;
+    font-weight: bold;
+    
+}
+.head span {
+    font-size: 22px;
+}
+.head h1 {
+    font-size: 58px;
+}
+
+.head p {
+    font-size: 24px;
+}
+
+.btns {
+    margin-top:30px ;
+}
+ .same {
+    text-transform: none;
+    letter-spacing: 0px;
+    font-size: 16px;
+    opacity: 1;
+    border-radius: 3px;
+    border: 2px solid transparent;
+    padding: 15px 28px;
+    margin-left: 12px;
+    
+ }
+ .one {
+    background-color: #8E7754;
+    color: white;
+    margin-left: 15px;
+ }
+ .one:hover{
+    background-color:white;
+    cursor: pointer;
+    color: black;
+ }
+ .two {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+ }
+ .two:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+ }
+
+ .container > img {
+    width: 565.2px;
+    margin: 50px;
+    float: left;
+ }
+ .all {
+    margin-top: 50px;
+ }
+ .speical img {
+    width: 44px;
+    display: inline-block;
+    margin-bottom: -12px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #80808038;
+    margin-left: 10px;
+}
+ 
+ .speical p {
+    display: inline-block;
+ }
+
+ .line {
+    padding-top: 80px;
+ }
+ .line h2 {
+    font-size: 32px;
+    color:  #303030;
+    font-weight: 400;
+    margin-bottom: 25px;
+ }
+
+ .line p {
+    line-height: 1.68em;
+    color: #908b8b;
+ }
+ .speical p {
+    color:  #908b8b
+  }
+
+
+  .location {
+    background-color: #f8f8f8;
+   margin-top: 140px;
+  }
+
+  .text {
+    width: 582px;
+    margin: 53px -50px;
+     height: 547px;
+  }
+
+  .text h2 {
+    color: #303030;
+    font-weight: 400;
+    line-height: 1.38em;
+    margin-bottom: 25px;
+    display: inline-block;
+    margin-top: 48px;
+ }
+
+ .text p {
+    font-size: 17px;
+    color: #686868;
+    font-weight: 400;
+    line-height: 1.86em;
+     margin-bottom: 20px; 
+
+ }
+ .image {
+    margin-right: -800px;
+    margin-top: -260px;
+}
+
+ .location .image img { 
+    float: right;
+     width: 517.2px;
+    left: 20px
+ }
+
+.our-Baking {
+    
+}
+.Title {
+    margin: 10px 0 60px;
+    text-align: center;
+}
+.Title h2 {
+    color:#303030;
+}
+.Title p {
+    color: #888;
+    font-size: 17px;
+    margin: 17px 0 auto;
+}
+
+.all-cards {
+    margin-left: 400px;
+}
+.card {
+    width:25%;
+   display: inline-block;
+   padding:  0 20px 15px;
+}
+.card > div {
+    padding: 10px 20px;
+    text-align: center;
+    
+}
+.card > div h3 {
+    color: #303030;
+}
+.card > div p {
+    color: #888;
+}
+
+.card img {
+    width: 100%;
+}
+
+.contact {
+    height: 500px;
+    background-color: #dcdcdc38;
+}
+
+.info {
+  
+    float: left;
+    margin: 15px 20px;
+    width: 595px;
+    line-height: 1.86em;
+}
+.info h2 {
+    color: #303030;
+    font-size: 32px;
+   
+}
+.info p {
+    color: #686868;
+    font-size: 17px;
+}
+
+.detail span {
+    color: #686868;
+    margin: 15px;
+}
+.details div img {
+    width: 30px;
+    background-color: #8E7754;
+    color: white;
+    border-radius: 50%;
+    margin-bottom: -9px;
+}
+.detail {
+    margin-bottom: 5px;
+}
+.photo {
+    width: 200px;
+    float: right;
+    margin-top: -400px;
+    margin-right: -294px;
+}
+.photo {
+    cursor: grab;
+}
+
+.col {
+    float: left;
+    width: 23%;
+}
+.new .col {
+    margin-top: 30px;
+    /* margin-right: 30px; */
+}
+.content-detail {
+    margin-bottom: 20px;
+}
+.var {
+    background-image: url(../images/contact-details-map.png);
+    /* width: fit-content; */
+}
+.new .col h4 {
+    color: #fff;
+    font-size: 18px;
+   
+}
+.new .col  p {
+    color: #969696;
+    font-size: 16px;
+    line-height: 1.87em;
+    width: 235px;
+}
+.new .col  ul li {
+    color: #969696;
+    font-size: 16px;
+}
+.demo{
+    margin-left: 40px;
+    line-height: 2.2em;
+}
+.for {
+    margin-left: 20px;
+    line-height: 2.77em;
+
+}
+.same1 {
+    margin-top: -50px;
+    margin-left: 47px;
+}
+.same2 {
+    margin-left: 50px;
+    margin-top: -40px;
+
+}
+
+.same3 {
+    margin-left: 55px;
+    margin-top: -42px;
+
+}
+
+.same4{
+    margin-left: 50px;
+    margin-top: -43px;
+
+}
+
+.Blog  {
+    background-color: #403d38;
+    height: 55vh;
+}
+
+.end {
+    background-color:#353330 ;
+    padding: 1px;
+}
+.center {
+    text-align: center;
+    margin-top: 48px;
+
+}
+.center p {
+    color: #757677;
+}
+.links {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.links a img {
+    background-color: #484540;
+    border-radius: 50%;
+    width: 35px;
+    margin-left: 5px;
+
+}
+
+.links a .face:hover {
+    background-color: #0275d8;
+}
+
+.links a .google:hover {
+    background-color:red ;
+} 
+
+.links a .link:hover {
+    background-color:#0275d8;
+} 
+.links a .twitter:hover {
+    background-color:#0275d8;
+} 
+
+
